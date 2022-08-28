@@ -7,3 +7,14 @@ git conf --list: para ver la lista de configuraciones hechas
 git conf --list --show-origin: para mostrar las configuraciones y sus rutas
 git rm --cached nombre_del_archivo.txt: para eliminar el archivo del staged(ram)
 git rm nombre_del_archivo.txt: para eliminar del repositorio
+
+Recuerda que Git está optimizado para trabajar en equipo, por lo tanto, debemos darle un poco de información sobre nosotros. No debemos hacerlo todas las veces que ejecutamos un comando, basta con ejecutar solo una sola vez los siguientes comandos con tu información:
+
+git config --global user.email "tu@email.com"
+git config --global user.name "Tu Nombre"
+
+Si por algún motivo te equivocaste en el nombre o email que configuraste al principio, lo puedes modificar de la siguiente manera:
+git config --global --replace-all user.name “Aquí va tu nombre modificado”
+O si lo deseas eliminar y añadir uno nuevo
+git config --global --unset-all user.name :Elimina el nombre del usuario
+git config --global --add user.name “Aquí va tu nombre”
