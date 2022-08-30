@@ -4,7 +4,6 @@ Si queremos ver la diferencia entre una versión y otra, no necesariamente todos
 
 Recuerda que puedes obtener el ID de tus commits con el comando git log.
 Con git log --oneline puedes obtenerlos en su versión corta.
-Hola soy ana y quiero colaborar en tu proyecto
 
 Comandos para analizar cambios en Git
 git init: inicializar el repositorio
